@@ -1,0 +1,27 @@
+# Excluded documentation / reports as requested
+report.md
+*.pdf
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets and caches
+data/
+*.tar.gz
+*.zip
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.DS_Store
